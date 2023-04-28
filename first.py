@@ -19,6 +19,8 @@ def counter(l):
         else :
             d[i]+=1
     return d
-l = [1,2,3,4,5,6,1,3,3,2,4,5]
+#l = [1,2,3,4,5,6,1,3,3,2,4,5]
+l= list(map(int, input().split()))
 print(counter(l))
+
         
